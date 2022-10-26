@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="listaventas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="venta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="importe" type="xs:string"/>
+                            <xs:element name="comprador" type="xs:string"/>
+                            <xs:element name="vendedor" type="xs:string"/>
+                            <xs:element name="codigofactura" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="fecha" type="xs:anyType" default="" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

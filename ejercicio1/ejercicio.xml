@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!--Unos programadores necesitan un formato de fichero para que sus distintos programas intercambien
+información sobre ventas. El acuerdo al que han llegado es que su XML debería tener esta estructura:
+		a. El elemento raíz será <listaventas>
+		b. Toda <listaventas> tiene una o más ventas.
+		c. Toda <venta> tiene los siguientes datos:
+			i. Importe.
+			ii. • Comprador.
+			iii. • Vendedor.
+			iv. • Fecha (optativa).
+			v. • Un código de factura.
+-->
+
+<!DOCTYPE listaventas SYSTEM "Ejercicio1.dtd" >
+<listaventas>
+	<venta>
+		<importe>1500</importe>
+		<comprador>Wile E.Coyote</comprador>
+		<vendedor>ACME</vendedor>
+		<codigofactura>E17</codigofactura>
+	</venta>
+	<venta>
+		<importe>750</importe>
+		<comprador>Elmer Fudd</comprador>
+		<vendedor>ACME</vendedor>
+		<fecha>27-2-2015</fecha>
+		<codigofactura>E18</codigofactura>
+	</venta>
+</listaventas>

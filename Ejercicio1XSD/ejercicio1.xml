@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaventas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ejercicio.xsd">
+    <venta fecha="27-2-2015">
+        <importe>1500</importe>
+        <comprador>Wile E.Coyote</comprador>
+        <vendedor>ACME</vendedor>
+        <codigofactura>E17</codigofactura>
+    </venta>
+    <venta>
+        <importe>750</importe>
+        <comprador>Elmer Fudd</comprador>
+        <vendedor>ACME</vendedor>
+        <codigofactura>E18</codigofactura>
+    </venta>
+</listaventas>
